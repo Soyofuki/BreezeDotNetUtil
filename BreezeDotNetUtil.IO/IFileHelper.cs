@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BreezeDotNetUtil
+namespace BreezeDotNetUtil.IO
 {
-    public class Class1
+    interface IFileHelper
     {
+        bool CheckAndCreateFile(string path, string fileName);
     }
 }
